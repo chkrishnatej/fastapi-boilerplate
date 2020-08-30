@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["chkrishnatej <chkrishnatej@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.61.0"
+fastapi-sqlalchemy = "^0.1.6"
+python-dotenv = "^0.14.0"
+passlib = "^1.7.2"
+tenacity = "^6.2.0"
+uvicorn = "^0.11.8"
+email-validator = "^1.1.1"
+alembic = "^1.4.2"
+bcrypt = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
